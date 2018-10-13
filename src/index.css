@@ -12,3 +12,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.game-board {
+  width: 310px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 3px 8px 16px rgba(black, 0.6);
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid black;
+}
